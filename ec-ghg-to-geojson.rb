@@ -53,33 +53,37 @@ features = []
 csv.each do |row|
 
   properties = {
-    "facility_id" => row[:facility_id],
-    "organisation_name" => row[:organisation_name],
-    "facility_name" => row[:facility_name],
-    "province" => row[:province],
-    "city" => row[:city],
-    "address" => row[:address],
-    "postal_code" => row[:postal_code],
-    "npri_id" => row[:npri_id],
+    "facility_id"                                                => row[:facility_id],
+    "organisation_name"                                          => row[:organisation_name],
+    "facility_name"                                              => row[:facility_name],
+    "province"                                                   => row[:province],
+    "city"                                                       => row[:city],
+    "address"                                                    => row[:address],
+    "postal_code"                                                => row[:postal_code],
+    "npri_id"                                                    => row[:npri_id],
     "2011_ghg_emissions_kilotonnes_of_carbon_dioxide_equivalent" => row[:'2011_ghg_emissions_kilotonnes_of_carbon_dioxide_equivalent'].to_f,
-    "facility_ghg_data_link" => row[:facility_ghg_data_link],
-    "naics_name" => row[:naics_name],
-    "naics_data_link" => row[:naics_data_link],
+    "facility_ghg_data_link"                                     => row[:facility_ghg_data_link],
+    "naics_name"                                                 => row[:naics_name],
+    "naics_data_link"                                            => row[:naics_data_link],
   }
+
   geometry = {
-    "type" => "Point",
+    "type"        => "Point",
     "coordinates" => [row[:longitude].to_f, row[:latitude].to_f],
   }
+
   feature = {
-    "type" => "Feature",
+    "type"       => "Feature",
     "properties" => properties,
-    "geometry" => geometry
+    "geometry"   => geometry
   }
+
   features << feature
+
 end
 
 output = { 
-  "type" => "FeatureCollection",
+  "type"     => "FeatureCollection",
   "features" => features
 }
 
