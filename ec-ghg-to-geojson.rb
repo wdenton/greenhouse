@@ -3,6 +3,9 @@
 require 'csv'
 require 'json'
 
+# GeoJSON spec: http://geojson.org/geojson-spec.html
+# GitHub does a nice job of rendering GeoJSON files!
+
 ghg_data = File.open("Greenhouse_Gas_Emissions.tsv", "r:ISO-8859-1").read
 
 csv = CSV.parse(ghg_data, {:col_sep => "\t", :headers => true, :header_converters => :symbol})
