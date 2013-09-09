@@ -18,7 +18,7 @@ Note about the data, from the map page:
 
 Conversion:
 
-1. Download raw data from [http://maps-cartes.ec.gc.ca//CESI_Services/DataService/1/en], save as `Greenhouse_Gas_Emissions.tsv`
+1. Download raw data from http://maps-cartes.ec.gc.ca//CESI_Services/DataService/1/en, save as `Greenhouse_Gas_Emissions.tsv`
 1. `./ec-ghg-to-geojson.rb > 2011_canada_ghg_emissions.geojson`
 1. Test JSON with `jsonlint 2011_canada_ghg_emissions.geojson`
 
