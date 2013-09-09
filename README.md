@@ -33,7 +33,7 @@ See info link at http://www.ene.gov.on.ca/environment/en/resources/collection/da
 
 -->
 
-## NPRI (National Pollutatnt Release Inventory) data
+## NPRI (National Pollutant Release Inventory) data
 
 Two files are available:
 
