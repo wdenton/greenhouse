@@ -2,7 +2,7 @@ Greenhouse gas emissions data.
 
 ## 2011 Canada Greenhouse Gas Emissions
 
-One file is available: a GeoJSON representaion of the 2011 data: [2011_canada_ghg_emissions.geojson](greenhouse_gases_2011/2011_canada_ghg_emissions.geojson).  This shows all sites in Canada that emitted more than 50,000 metric tonnes of CO2 equivalent gases in 2011.
+One file is available: a GeoJSON representaion of the 2011 data: [2011_canada_ghg_emissions.geojson](greenhouse-gases-2011/2011_canada_ghg_emissions.geojson).  This shows all sites in Canada that emitted more than 50,000 metric tonnes of CO2 equivalent gases in 2011.
 
 Source: [Greenhouse gas emissions from large facilities, Canada, 2011](http://maps-cartes.ec.gc.ca/indicators-indicateurs/TableView.aspx?ID=1)
 
