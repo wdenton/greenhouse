@@ -1,5 +1,7 @@
 Greenhouse gas emissions data.
 
+(Note about CSV files: When I grab an Excel spreadsheet, I convert it to CSV and then work on it.  There's a way to deal with Excel right in Ruby but I can't be bothered to get into that when I'm just dealing with converting a few files.  CSV is grokkable by all languages so it's good to convert it to that format anyway.)
+
 ## 2011 Canada Greenhouse Gas Emissions
 
 One file is available: a GeoJSON representaion of the 2011 data: [2011_canada_ghg_emissions.geojson](greenhouse-gases-2011/2011_canada_ghg_emissions.geojson).  This shows all sites in Canada that emitted more than 50,000 metric tonnes of CO2 equivalent gases in 2011.
