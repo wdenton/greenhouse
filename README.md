@@ -33,6 +33,16 @@ See info link at http://www.ene.gov.on.ca/environment/en/resources/collection/da
 
 -->
 
+### More data
+
+The data above has the total of CO2e, but [Reported Facility Greenhouse Gas Data](http://www.ec.gc.ca/ges-ghg/default.asp?lang=En&n=8044859A-1) has detailed breakdowns of emissions by gas for years 2004--2011.  A [Facility Data Search](http://www.ec.gc.ca/ges-ghg/donnees-data/index.cfm?lang=En) leads to a [full view of 2011 data](http://www.ec.gc.ca/ges-ghg/donnees-data/index.cfm?do=results&lang=en&year=2011&gas=all&fac_name=&prov=all&city=&naics=all&submit=Submit) which can be downloaded in XLS.  (Is it useful to convert that into a more usable format?)
+
+The National Inventory Report is mentioned above.  [Canada's Greenhouse Gas Inventory](http://www.ec.gc.ca/ges-ghg/default.asp?lang=En&n=83A34A7A-1) explains:
+
+> The NIR, along with the Common Reporting Format (CRF) tables, comprise [Canada’s inventory submission to the United Nations Framework Convention on Climate Change](http://unfccc.int/national_reports/annex_i_ghg_inventories/national_inventories_submissions/items/7383.php) and are prepared in accordance with the UNFCCC Reporting Guidelines on annual inventories, [Decision 14/CP 11](http://unfccc.int/documentation/documents/advanced_search/items/6911.php?priref=600003988), and other relevant decisions.
+
+The UNFCCC is the United Nations Framework Convention on Climate Change, and its [National Inventory Submissions 2013](http://unfccc.int/national_reports/annex_i_ghg_inventories/national_inventories_submissions/items/7383.php) is a massive store of aggregate data, country by country, about greenhouse gas emissions.  (It's broken up into per-year Excel spreadsheets; perhaps the data can be made more reusable, or perhaps it already has.)
+
 ## NPRI (National Pollutant Release Inventory) data
 
 Two files are available:
@@ -54,30 +64,7 @@ Conversion:
 
 TODO: NPRI data will make a good simple web service.
 
-<!-- Interactive map:
-
-http://maps-cartes.ec.gc.ca/indicators-indicateurs/default.aspx?id=1&Xmin=-15307263.2217053&Ymin=4878962.72110015&xmax=-5718983.26419751&ymax=11140696.5709012&lang=en.
-
---> 
-
-<!-- Source: Environment Canada (2013) Overview of the Reported 2011 Greenhouse Gas Emissions.
-
-Facility Greenhouse Gas Reporting
-http://www.ec.gc.ca/ges-ghg/default.asp?lang=En&n=040E378D-1
-
-
-Reported Facility Greenhouse Gas Data
-http://www.ec.gc.ca/ges-ghg/default.asp?lang=En&n=8044859A-1
-
-Facility Data Search
-http://www.ec.gc.ca/ges-ghg/donnees-data/index.cfm?lang=En
-
-which leads to a full 2011 view:
-http://www.ec.gc.ca/ges-ghg/donnees-data/index.cfm?do=results&lang=en&year=2011&gas=all&fac_name=&prov=all&city=&naics=all&submit=Submit
-
-which can be downloaded in XLS
-http://www.ec.gc.ca/ges-ghg/donnees-data/index.cfm?do=results_excel&excel=true&lang=en&year=2011&gas=all&fac_name=&prov=all&city=&naics=all&x=Submit
-
+<!--
 
 Canada's Greenhouse Gas Inventory
 http://www.ec.gc.ca/ges-ghg/default.asp?lang=En&n=83A34A7A-1
@@ -93,6 +80,23 @@ Look for Downloadable Emissions Data (Excel but it's not)
 http://www.ec.gc.ca/ges-ghg/donnees-data/index.cfm?do=results_excel&excel=true&lang=en&year=2011&gas=all&fac_name=&prov=all&city=&naics=all&x=Submit
 
 --> 
+
+
+## Copyright and license information
+
+This data is reformatted and reshaped from sources provided by the Government of Canada. Environment Canada's [Copyright/Permission to Reproduce](http://www.ec.gc.ca/default.asp?lang=En&xml=5830C36B-1773-4E3E-AF8C-B21F54633E0A) notice says:
+
+> Information on this website has been posted with the intent that it be readily available for personal or public non-commercial use and may be reproduced, in part or in whole, and by any means, without charge or further permission, unless otherwise specified.
+>
+> Users are required to:
+>
+>    Exercise due diligence in ensuring the accuracy of the materials reproduced;
+>    Indicate both the complete title of the materials reproduced, as well as the author organization; and
+>    Indicate that the reproduction is a copy of an official work that is published by the Government of Canada and that the reproduction has not been produced in affiliation with or with the endorsement of the Government of Canada.
+>
+> Unless otherwise specified, this authorization is also applicable to all published information regardless of its format.
+
+All of this work is done with those restrictions in mind, and also [with the hopes that the Canadian government will release its data under a CC0 license](http://wiki.creativecommons.org/CC0_use_for_data).
 
 
 
