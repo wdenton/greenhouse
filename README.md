@@ -2,7 +2,7 @@ Greenhouse gas emissions data.
 
 ## 2011 Canada Greenhouse Gas Emissions
 
-One file is available: a GeoJSON representaion of the 2011 data: [[greenhouse_gases_2011/2011_canada_ghg_emissions.geojson]].  This shows all sites in Canada that emitted more than 50,000 metric tonnes of CO2 equivalent gases in 2011.
+One file is available: a GeoJSON representaion of the 2011 data: [greenhouse_gases_2011/2011_canada_ghg_emissions.geojson](2011_canada_ghg_emissions.geojson).  This shows all sites in Canada that emitted more than 50,000 metric tonnes of CO2 equivalent gases in 2011.
 
 Source: [Greenhouse gas emissions from large facilities, Canada, 2011](http://maps-cartes.ec.gc.ca/indicators-indicateurs/TableView.aspx?ID=1)
 
@@ -10,13 +10,16 @@ The [Interactive Indicator Map](http://maps-cartes.ec.gc.ca/indicators-indicateu
 
 Example of supplementary information: [York University's Keele Campus](http://maps-cartes.ec.gc.ca/indicators-indicateurs/detailPage.aspx?lang=en&type=ghg&objectid=503) detail page shows historical data (in this case, just two years).
 
+Note about the data, from the map page:
+
 > Note: Unlike the National Inventory Report, which compiles GHG data at a national level and is developed from national and provincial statistics, the federal Facility GHG Emissions Reporting Program applies only to the largest GHG emitters in Canada (e.g. industrial and other types of facilities). In the Facility GHG Emissions Reporting Program, all facilities that emit the equivalent of 50,000 tonnes (50 kt) of CO2 equivalent of GHG per year are required to submit a report."
+>
 > Emissions data for all the reporting facilities are available for download from the data page. Some facilities are not mapped because of unreported geographic coordinates and/or the non-point source nature of the facility (such as pipelines).
 
 Conversion:
 
 1. Download raw data from [http://maps-cartes.ec.gc.ca//CESI_Services/DataService/1/en], save as `Greenhouse_Gas_Emissions.tsv`
-1. `ec-ghg-to-geojson.rb > 2011_canada_ghg_emissions.geojson`
+1. `./ec-ghg-to-geojson.rb > 2011_canada_ghg_emissions.geojson`
 1. Test JSON with `jsonlint 2011_canada_ghg_emissions.geojson`
 
 (Note to self: `curl` doesn't download the whole file for me; stops with exit code 18 ("Partial file") ... why?)
@@ -44,7 +47,7 @@ Source: [National Pollutant Release Inventory Facility Location Table](http://ww
 Conversion:
 
 1. Download raw data from http://www.ec.gc.ca/inrp-npri/20DE1DC2-B2CB-4EFE-AAAB-3F24B836A460/1993-2011_NPRI_GEO_2013_02_19.xls
-1. Convert to CSV (here it's [npri/1993-2011_NPRI_GEO_2013_02_19.csv])
+1. Convert to CSV (here it's [npri/1993-2011_NPRI_GEO_2013_02_19.csv](1993-2011_NPRI_GEO_2013_02_19.csv))
 1. `./npri_location_table.rb > 1993-2011_NPRI_GEO_2013_02_19.geojson` (confusingly dumps STDOUT to a file but silently creates a SQLite3 database)
 
 <!-- Interactive map:
