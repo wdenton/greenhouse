@@ -34,8 +34,8 @@ See info link at http://www.ene.gov.on.ca/environment/en/resources/collection/da
 
 Two files are available:
 
-1. [Simplified GeoJSON representation](npri/./npri_location_table.rb > 1993-2011_NPRI_GEO_2013_02_19.geojson])
-1. [SQLite3 database with all data](npri/./npri_location_table.rb > 1993-2011_NPRI_GEO_2013_02_19.sqlite3])
+1. [Simplified GeoJSON representation](npri/1993-2011_NPRI_GEO_2013_02_19.geojson])
+1. [SQLite3 database with all data](npri/1993-2011_NPRI_GEO_2013_02_19.sqlite3])
 
 NPRI ID numbers are used in reports about greenhouse gases and other pollutants. This data set is especially useful because it gives latitude and longitude for each NPRI site, which doesn't appear in some other reports.  (NPRI data will make a good simple web service.)
 
@@ -43,7 +43,7 @@ Source: [National Pollutant Release Inventory Facility Location Table](http://ww
 
 Conversion:
 
-1. Download raw data from [http://www.ec.gc.ca/inrp-npri/20DE1DC2-B2CB-4EFE-AAAB-3F24B836A460/1993-2011_NPRI_GEO_2013_02_19.xlsx]
+1. Download raw data from http://www.ec.gc.ca/inrp-npri/20DE1DC2-B2CB-4EFE-AAAB-3F24B836A460/1993-2011_NPRI_GEO_2013_02_19.xls]
 1. Convert to CSV (here it's [npri/1993-2011_NPRI_GEO_2013_02_19.csv])
 1. `./npri_location_table.rb > 1993-2011_NPRI_GEO_2013_02_19.geojson` (confusingly dumps STDOUT to a file but silently creates a SQLite3 database)
 
