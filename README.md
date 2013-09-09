@@ -2,7 +2,7 @@ Greenhouse gas emissions data.
 
 ## 2011 Canada Greenhouse Gas Emissions
 
-One file is available: a GeoJSON representaion of the 2011 data: [greenhouse_gases_2011/2011_canada_ghg_emissions.geojson](2011_canada_ghg_emissions.geojson).  This shows all sites in Canada that emitted more than 50,000 metric tonnes of CO2 equivalent gases in 2011.
+One file is available: a GeoJSON representaion of the 2011 data: [2011_canada_ghg_emissions.geojson](greenhouse_gases_2011/2011_canada_ghg_emissions.geojson).  This shows all sites in Canada that emitted more than 50,000 metric tonnes of CO2 equivalent gases in 2011.
 
 Source: [Greenhouse gas emissions from large facilities, Canada, 2011](http://maps-cartes.ec.gc.ca/indicators-indicateurs/TableView.aspx?ID=1)
 
@@ -40,7 +40,9 @@ Two files are available:
 1. [Simplified GeoJSON representation](npri/1993-2011_NPRI_GEO_2013_02_19.geojson)
 1. [SQLite3 database with all data](npri/1993-2011_NPRI_GEO_2013_02_19.sqlite3)
 
-NPRI ID numbers are used in reports about greenhouse gases and other pollutants. This data set is especially useful because it gives latitude and longitude for each NPRI site, which doesn't appear in some other reports.  (NPRI data will make a good simple web service.)
+NPRI ID numbers are used in reports about greenhouse gases and other pollutants. This data set is especially useful because it gives latitude and longitude for each NPRI site, which doesn't appear in some other reports.
+
+TODO: NPRI data will make a good simple web service.
 
 Source: [National Pollutant Release Inventory Facility Location Table](http://www.ec.gc.ca/inrp-npri/default.asp?lang=En&n=20DE1DC2-1)
 
